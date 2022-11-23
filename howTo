@@ -18,21 +18,9 @@ JIRA_HOST=jira.company.domain JIRA_USERNAME=user JIRA_PASSWORD=password python a
 
 https://asgardia.atlassian.net/rest/api/latest/user/search
 
-      curl -D- \
-   -u api.atlassian.com:jYQUHX0lMo35TjbbOGtyC123 \
-   -X GET \
-   -H "Content-Type: application/json" \
-   https://asgardia.atlassian.net/rest/api/3/search
-
-
+     
 
 https://id.atlassian.com/rest/agile/1.0/board
 
-curl -v https://asgardia.atlassian.net/rest/agile/1.0/board --user l.nahar@pipelinesecurity.net:jYQUHX0lMo35TjbbOGtyC123
-
-curl --request GET \
-  --url https://asgardia.atlassian.net/rest/api/3/search \
-  --header 'Authorization: Basic bC5uYWhhckBwaXBlbGluZXNlY3VyaXR5Lm5ldDpqWVFVSFgwbE1vMzVUamJiT0d0eUMxMjM=' \
-  --cookie atlassian.xsrf.token=a5e17758-1cda-43e1-86ea-f4efdb78ab20_9245944a20795010731f7f26d6c05f99d3c1de8b_lin
 
   JIRA_HOST=asgardia.atlassian.net JIRA_USERNAME=l.nahar@pipelinesecurity.net JIRA_PASSWORD=jYQUHX0lMo35TjbbOGtyC123 python app.py
